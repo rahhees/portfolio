@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="Rahees" />
+
+  <meta property="og:image" content="https://rahhees.github.io/portfolio/images/SAMPLE.png" />
+  <meta property="og:url" content="https://rahhees.github.io/portfolio/" />
+  <meta property="og:type" content="website" />
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Rahees " />
+
+
+  <title>Hey there!</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js"></script>
+  <!-- Bootstrap CSS -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> -->
+
+
+  <!-- <link rel="stylesheet" href="css/bootstrap.css">
+     -->
+  <link rel="icon" type="image/x-icon" href="356f4c36-dc19-44cc-9916-d098b44823a2.png">
+
+</head>
+
+<body>
+
+
+
+  <div class="container">
+    <div class="navbar">
+
+      <div class="hamburger" onclick="toggleMenu()">
+        <i class="fas fa-bars"></i>
+      </div>
+
+      <nav>
+        <img class="logo" src="./unnamed-removebg-preview.png"
+          style="height: 20px; margin-top: 25px; margin-right: 30%;">
+        <li class="animate"><a href="#home"> HOME</a></li>
+        <li class="animate"><a href="#about"> ABOUT</a></li>
+        <li class="animage"><a href="#skill">SKILL</a> </li>
+        <li class="animate"><a href="#project">PROJECT</a></li>
+        <li class="animate"><a href="#contact">CONTACT</a></li>
+      </nav>
+    </div>
+
+
+    <div class="home" id="home">
+      <div class="profile-image">
+        <img src="./SAMPLE.png" alt="">
+      </div>
+      <div class="name-section">
+        <h2>
+          <span class="first">MOHAMMED</span><br>
+          <span class="second">RAHEES</span>
+
+
+          <div class="position">FULL STACK DEVELOPER</div>
+          <div class="description">
+            <p class="quote">"Learn, Build, Inspire."</p>
+            <!-- <p>I build full stack applications that solve real-world problems, <br>using clean code and modern
+              technologies. - -->
+
+            </p>
+
+          </div>
+        </h2>
+        <div class="logos">
+          <a href="https://www.instagram.com/ra.hh.ees" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/rahees-vp" target="_blank">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/rahhees" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://x.com/yourprofile" target="_blank" class="fab-icon">
+            <i class="fab fa-x-twitter"></i>
+          </a>
+
+
+
+        </div>
+        <div class="button-group">
+          <a href="resume.pdf" target="_blank">
+            <button class="custom-button">RESUME</button></a>
+          <a href="#project">
+            <button class="custom-button secondary">PROJECTS!</button></a>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- ABOUT SECTION -->
+
+    <div class="content" id="about">
+
+      <h4>About Me!</h4>
+      <img src="./SAMPLE.png" alt="" srcset="">
+
+
+      <p>Hello! I’m Mohammed Rahees — a passionate technologist with a love for creativity, coding, and purposeful
+        digital experiences. I enjoy building intuitive websites, exploring smart design solutions, and solving
+        real-world problems through code. Always eager to learn, I continually refine my skills and stay up-to-date in
+        this ever-evolving tech world. I value collaboration, growth, and creating work that’s both impactful and
+        user-focused. With a strong foundation in full stack development and an eye for detail, I aim to bridge the gap
+        between design and functionality. Let’s build something meaningful together!
+      </p>
+
+      <button onclick="location.href='resume.pdf'">READ MORE</button>
+
+      <!-- Add this at the bottom of .home or .content section -->
+      <!-- <div class="scroll-indicator">
+        <a href="#" onclick="scrollToCenter('contact');return false;">
+          <i class="fa-solid fa-angles-down" style="color:#000000; margin-left: 95%; "></i>
+        </a>
+
+      </div> -->
+
+    </div>
+    <div class="skill-section" id="skill">
+      <div class="skill">
+
+        <section class="skills-section">
+          <h2>My Skills</h2>
+
+          <div class="skill">
+            <span class="skill-name">HTML</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 90%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span class="skill-name">CSS</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 85%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span class="skill-name">JavaScript</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 75%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span class="skill-name">Python</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 70%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <span class="skill-name">Mongo DB</span>
+            <div class="progress-bar">
+              <div class="progress" style="width: 65%"></div>
+            </div>
+          </div>
+        </section>
+
+
+
+      </div>
+
+
+
+
+    </div>
+    <div class="project" id="project">
+      <div class="project-section">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+
+          <div class="project-card" onclick="window.open('https://github.com/rahhees/Farmora', '_blank')"
+            style="cursor: pointer;">
+            <h3>SMART FARMING</h3>
+            <img src="./2151969809.jpg" alt="Smart Farming">
+            <p>Farm Assist is a smart agriculture solution that helps farmers monitor crops, manage resources, and make
+              data-driven decisions for better yield and sustainability.</p>
+          </div>
+
+
+          <div class="project-card" onclick="window.open('https://github.com/rahhees/Farmora', '_blank')"
+            style="cursor: pointer;">
+            <h3>PERSONAL CARD</h3>
+            <img src="./card.jpg">
+            <p>A personal card is a compact section that showcases basic details about an individual, like their name,
+              photo, and role.</p>
+          </div>
+
+          <div class="project-card" onclick="window.open('https://github.com/rahhees/Farmora', '_blank')"
+            style="cursor: pointer;">
+            <h3>PORTFOLIO</h3>
+            <img src="./6893197.jpg">
+            <p>A dynamic personal portfolio showcasing my skills, projects, and creative journey in web development.
+              Built with modern design, responsive layout</p>
+          </div>
+
+          <div class="project-card" onclick="window.open('https://github.com/rahhees/Farmora', '_blank')"
+            style="cursor: pointer;">
+            <h3>GOIBIBO CLONE</h3>
+            <img src="airplane.jpg">
+            <p>Goibibo Clone is a travel booking platform that lets users search, compare, and book flights, hotels, and
+              buses seamlessly.</p>
+          </div>
+          <div class="project-card" onclick="window.open('https://github.com/rahhees/Farmora', '_blank')"
+            style="cursor: pointer;">
+            <h3>WALLET VIEW</h3>
+            <img src="./wallet.jpg">
+            <p>Wallet View is a simple tool to view and manage your account balance instantly and securely.</p>
+          </div>
+          <div class="project-card">
+            <h3>W3 CLONE</h3>
+            <img src="CLONE.jpg" onclick="window.open('https://github.com/rahhees/Farmora', '_blank')"
+              style="cursor: pointer;">
+            <p>A simple, responsive navigation bar inspired by the W3Schools website layout.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="contact-container" id="contact">
+      <h3>Contact Us!</h3>
+      <p> I'd love to connect! Whether you have a question, want to collaborate on a project, or just want to say hi —
+        feel free to drop a message below.</p>
+      <div class="contact-box">
+
+        <div class="contact-section">
+          <div class="contact-form">
+
+
+
+<form id="contact-form" action="https://formspree.io/f/meokgdrw" method="POST">
+  <input type="hidden" name="_captcha" value="false">
+
+  <input type="text" id="name" name="name" placeholder="Full Name" required>
+  <input type="email" id="email" name="email" placeholder="Email Address" required>
+  <textarea id="message" name="message" rows="5" placeholder="Your message...." required></textarea>
+  <button type="submit">Send</button>
+</form>
+
+
+            <div class="scroll-indicator-up" style="margin-left: 79rem;" ;>
+              <a href="#home">
+                <i class="fa-solid fa-angles-up"></i>
+              </a>
+            </div>
+          </div>
+
+
+          <div class="map-section">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d903.4083710439851!2d75.9939882842188!3d10.83178713604859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1751628333132!5m2!1sen!2sin"
+              width="600" height="450" style="border:0;" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+  </div>
+  </div>
+
+  </div>
+
+
+  </div>
+
+
+  </div>
+
+  </div>
+  </div>
+
+  
+<script>
+  const form = document.getElementById("contact-form");
+  const successMessage = document.getElementById("success-message");
+
+  form.addEventListener("submit", async function (e) {
+    e.preventDefault();
+
+    const formData = new FormData(form);
+
+    try {
+      const response = await fetch(form.action, {
+        method: "POST",
+        body: formData,
+        headers: {
+          'Accept': 'application/json'
+        }
+      });
+
+      if (response.ok) {
+        successMessage.style.display = "block";
+        form.reset();
+
+        // Optional: Hide message after 5 seconds
+        setTimeout(() => {
+          successMessage.style.display = "none";
+        }, 5000);
+      } else {
+        alert("❌ There was a problem sending your message.");
+      }
+    } catch (error) {
+      alert("sended");
+    }
+  });
+</script>
+
+
+
+</body>
