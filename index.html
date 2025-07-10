@@ -14,6 +14,13 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Rahees " />
 
+  <!-- AOS CSS -->
+<link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
+
+<!-- AOS JS (at the end of body) -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+
 
   <title>Hey there!</title>
   <link rel="stylesheet" href="./style.css">
@@ -56,9 +63,10 @@
 
 
     <div class="home" id="home">
+      <div data-aos="fade-down">
       <div class="profile-image">
         <img src="./SAMPLE.png" alt="">
-      </div>
+      </div></div>
       <div class="name-section">
         <h2>
           <span class="first">MOHAMMED</span><br>
@@ -112,7 +120,8 @@
       <img src="./SAMPLE.png" alt="" srcset="">
 
 
-      <p>Hello! I’m Mohammed Rahees — a passionate technologist with a love for creativity, coding, and purposeful
+      <p>
+            Hello! I’m Mohammed Rahees — a passionate technologist with a love for creativity, coding, and purposeful
         digital experiences. I enjoy building intuitive websites, exploring smart design solutions, and solving
         real-world problems through code. Always eager to learn, I continually refine my skills and stay up-to-date in
         this ever-evolving tech world. I value collaboration, growth, and creating work that’s both impactful and
@@ -135,6 +144,7 @@
       <div class="skill">
 
         <section class="skills-section">
+          <div data-aos="fade-up">
           <h2>My Skills</h2>
 
           <div class="skill">
@@ -174,7 +184,7 @@
         </section>
 
 
-
+</div>
       </div>
 
 
@@ -183,17 +193,20 @@
     </div>
     <div class="project" id="project">
       <div class="project-section">
-        <h2>My Projects</h2>
-        <div class="projects-grid">
+        <div data-aos="fade-up">
 
+        <h2>My Projects</h2>
+        </div>
+        <div class="projects-grid">
+<div data-aos="flip-right">
           <div class="project-card" onclick="window.open('https://github.com/rahhees/Farmora', '_blank')"
             style="cursor: pointer;">
             <h3>SMART FARMING</h3>
             <img src="./2151969809.jpg" alt="Smart Farming">
             <p>Farm Assist is a smart agriculture solution that helps farmers monitor crops, manage resources, and make
               data-driven decisions for better yield and sustainability.</p>
-          </div>
-
+          </div></div>
+<div data-aos="flip-right" >
 
           <div class="project-card" onclick="window.open('https://github.com/rahhees/Farmora', '_blank')"
             style="cursor: pointer;">
@@ -201,35 +214,37 @@
             <img src="./card.jpg">
             <p>A personal card is a compact section that showcases basic details about an individual, like their name,
               photo, and role.</p>
-          </div>
+          </div></div>
 
-          <div class="project-card" onclick="window.open('https://github.com/rahhees/Farmora', '_blank')"
+       <div data-aos="flip-right">  <div class="project-card" onclick="window.open('https://github.com/rahhees/Farmora', '_blank')"
             style="cursor: pointer;">
             <h3>PORTFOLIO</h3>
             <img src="./6893197.jpg">
             <p>A dynamic personal portfolio showcasing my skills, projects, and creative journey in web development.
               Built with modern design, responsive layout</p>
-          </div>
+          </div></div>
 
-          <div class="project-card" onclick="window.open('https://github.com/rahhees/Farmora', '_blank')"
+         <div data-aos="flip-right"> <div class="project-card" onclick="window.open('https://github.com/rahhees/Farmora', '_blank')"
             style="cursor: pointer;">
             <h3>GOIBIBO CLONE</h3>
             <img src="airplane.jpg">
             <p>Goibibo Clone is a travel booking platform that lets users search, compare, and book flights, hotels, and
               buses seamlessly.</p>
-          </div>
+          </div></div>
+          <div data-aos="flip-right">
           <div class="project-card" onclick="window.open('https://github.com/rahhees/Farmora', '_blank')"
             style="cursor: pointer;">
             <h3>WALLET VIEW</h3>
             <img src="./wallet.jpg">
             <p>Wallet View is a simple tool to view and manage your account balance instantly and securely.</p>
-          </div>
+          </div></div>
+          <div data-aos="flip-right">
           <div class="project-card">
             <h3>W3 CLONE</h3>
             <img src="CLONE.jpg" onclick="window.open('https://github.com/rahhees/Farmora', '_blank')"
               style="cursor: pointer;">
             <p>A simple, responsive navigation bar inspired by the W3Schools website layout.</p>
-          </div>
+          </div></div>
         </div>
 
       </div>
@@ -330,6 +345,9 @@
       alert("sended");
     }
   });
+
+   AOS.init();
+  
 </script>
 
 
