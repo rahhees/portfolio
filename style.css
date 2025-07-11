@@ -517,7 +517,7 @@ box-shadow: 0 0 20px 4px rgba(26, 115, 232, 0.6);
   /* Home section column layout */
   .home {
     flex-direction: column;
-    height: auto;
+    height: 100vh;
     padding: 20px;
     text-align: center;
   }
